@@ -1,0 +1,19 @@
+# Juniper protocol
+VPN_PROTOCOL=nc
+
+# space-separated list of VPN boxes (chosen randomly)
+VPN_SERVERS="vpn1.example.com vpn2.example.com"
+
+# custom path to VPNC script
+VPNC_SCRIPT_PATH=/etc/vpnc/vpnc-script
+
+# auth parameters
+VPN_SERVER_CERT="sha256:26f2f036d8e4e5fd36b4c95a63207978b98de591ed1fdca21845c8c23af78818"
+VPN_REALM="RSA SecurID"
+VPN_USER_NAME="user.name"
+
+# Stoken file should be kept secret (e.g. on an encrypted drive)
+STOKEN_FILE=/root/.stokenrc
+
+# PIN code to stokenrc file
+PIN=123456
