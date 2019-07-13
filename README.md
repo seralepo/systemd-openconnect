@@ -1,4 +1,4 @@
-# systemd-openconnec
+# systemd-openconnect
 This is a simple systemd unit file (service) to initialize Openconnect VPN connection on system startup, without any password prompts. Current example is used to connect to Juniper Network Connect / Pulse Secure SSL VPN (passing `--protocol=nc` to Openconnect). To use other protocols which Openconnect supports you might nwant to change this, as well as check what other options are needed specific to your protocol.
 
 ## Requirements
